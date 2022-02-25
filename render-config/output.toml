@@ -1,0 +1,21 @@
+frange = [ 1006, 1240, 1,]
+picture = "$HIP/render/$HIPNAME.$OS.$FRANGE4.exr"
+camera = "/cameras/camera1"
+resolution = [ 1280, 720,]
+engine = "CPU Engine"
+samplesperpixel = 9
+
+[rendering.sampling]
+convergencemode = "Variance"
+minraysamples = 1
+maxraysamples = 9
+lightsamplingmode = "Light Tree"
+lightsamplingquality = 1
+
+[rendering.limits]
+diffuselimit = 4
+reflectionlimit = 4
+refractionlimit = 4
+volumelimit = 0
+ssslimit = 0
+colorlimit = 10

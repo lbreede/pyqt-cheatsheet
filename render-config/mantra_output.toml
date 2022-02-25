@@ -1,0 +1,25 @@
+frange = [ 1001, 1240, 1,]
+camera = "/obj/cam1"
+
+[image]
+vm_picture = "$HIP/render/$HIPNAME.$OS.$F4.exr"
+
+[rendering]
+vm_renderengine = "Physically Based Rendering"
+vm_dof = false
+allowmotionblur = false
+
+[image.output]
+vm_pfilter = "gaussian -w 2"
+
+[rendering.sampling]
+vm_samples = [ 3, 3,]
+
+[rendering.limits]
+vm_reflectlimit = 10
+vm_refractlimit = 10
+vm_diffuselimit = 0
+vm_ssslimit = 0
+vm_volumelimit = 0
+vm_opacitylimit = 0.995
+vm_colorlimit = 10.0
