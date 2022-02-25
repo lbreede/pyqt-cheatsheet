@@ -1,4 +1,4 @@
-frange = [ 1006, 1240, 1,]
+frange = [ 1001, 1240, 1,]
 picture = "$HIP/render/$HIPNAME.$OS.$FRANGE4.exr"
 camera = "/cameras/camera1"
 resolution = [ 1280, 720,]
@@ -13,7 +13,7 @@ lightsamplingmode = "Light Tree"
 lightsamplingquality = 1
 
 [rendering.limits]
-diffuselimit = 4
+diffuselimit = 1
 reflectionlimit = 4
 refractionlimit = 4
 volumelimit = 0

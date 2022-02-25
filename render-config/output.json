@@ -1,6 +1,6 @@
 {
     "frange": [
-        1006,
+        1001,
         1240,
         1
     ],
@@ -21,7 +21,7 @@
             "lightsamplingquality": 1
         },
         "limits": {
-            "diffuselimit": 4,
+            "diffuselimit": 1,
             "reflectionlimit": 4,
             "refractionlimit": 4,
             "volumelimit": 0,
